@@ -1,0 +1,190 @@
+#page-wrap {
+    position: relative;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: sans-serif;
+}
+
+#cover-photo {
+    background: url("media/img-cover.jpeg") 50% 100%;
+    background-size: cover;
+    width: 100%;
+    min-width: 1000px;
+    min-height: 700px;
+    display: flex;
+    justify-content: center;
+}
+
+#navbar {
+    margin-top: 100px;
+    width: 1000px;
+    height: 30px;
+}
+
+#nav-ul {
+    list-style-type: none;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    border: solid gray 0.5px;
+    border-radius: 5px;
+    background-image:
+        linear-gradient(
+            to bottom,
+            #8c8c8c,
+            #8c8c8c 50%,
+            #737373 50%,
+            #737373
+        );
+}
+
+.nav-buttons {
+    width: 100px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-right: solid 0.5px gray;
+}
+
+.nav-link {
+    display: block;
+    text-decoration: none;
+    color: white;
+    text-shadow: 0px 0px 2px #000;
+}
+
+#nav-logo {
+    background: url("/icons/globalnav_apple.svg") 50% 0px;
+}
+
+#nav-store {
+    background: url("/icons/globalnav_apple.svg") 50% -30px;
+}
+
+#nav-mac {
+    background: url("/icons/globalnav_apple.svg") 50% -60px;
+}
+
+#nav-ipod {
+    background: url("/icons/globalnav_apple.svg") 50% -90px;
+}
+
+#nav-iphone {
+    background: url("/icons/globalnav_apple.svg") 50% -120px;
+}
+
+#nav-ipad {
+    background: url("/icons/globalnav_apple.svg") 50% -150px;
+}
+
+#nav-itunes {
+    background: url("/icons/globalnav_apple.svg") 50% -180px;
+}
+
+#nav-support {
+    background: url("/icons/globalnav_apple.svg") 50% -210px;
+}
+
+#nav-search {
+    border-right: none;
+}
+
+#search-box {
+    display: flex;
+    margin-left: 90px;
+    width: 150px;
+    padding: 0 0px 0 3px;
+    height: 20px;
+}
+
+#search {
+    width: 70%;
+    background-color: transparent;
+    border-radius: 50px;
+}
+
+main {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#header {
+    margin-top: -500px;
+    margin-bottom: 250px;
+    text-align: center;
+    width: 700px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#watch-link {
+    text-decoration: none;
+    color: white;
+}
+
+#news-wrap {
+    width: 100%;
+    height: 140px;
+    display: grid;
+    grid-template-columns: repeat(4,25%);
+}
+
+#phone-s {
+    background: url(/media/img-1.jpeg);
+    background-size: 100%;
+}
+
+#phone-c {
+    background: url(/media/img-2.jpeg);
+    background-size: 100%;
+}
+
+#happy-birthday {
+    background: url(/media/img-3.jpeg);
+    background-size: 100%;
+}
+
+#responsibility {
+    background: url(/media/img-4.jpeg);
+    background-size: 100%;
+}
+
+footer {
+    font-size: 10px;
+    width: 90%;
+    margin: auto;
+}
+
+#footer-1 {
+    display: flex;
+    justify-content: space-between;
+}
+
+#footer-nav {
+    list-style-type: none;
+    margin: none;
+    padding: none;
+    display: flex;
+}
+
+.foot-buttons {
+    padding-right: 20px;
+}
+
+.foot-links {
+    text-decoration: none;
+}
